@@ -1,0 +1,40 @@
+.col-3{
+    min-width: 20%;
+    margin: 25px;
+    display: inline-block;  
+}
+
+.col{
+    min-width: inherit;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0;
+    position: absolute;
+}
+
+.add-card{
+    margin: 20px;
+}
+
+.card-header{
+    margin: 20px;;
+}
+
+.card{
+    box-shadow: 0 2px 4px 0;
+    width: 86%;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.card-detail{
+    padding: 5px;
+}
+
+.remove-card{
+    float: right;
+    font-size: 12px;
+    color: red;
+    padding-right: 5px;
+    text-decoration: underline;
+}
+

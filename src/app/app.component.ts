@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'kanban-app';
+  cards1 = ["Java", "MySQL"];
+  cards2 = ["Python", "Matlab"];
+  cards3 = ["Angular", "HTML/CSS"];
+  cards4 = ["QA"];
 }

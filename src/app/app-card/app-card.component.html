@@ -1,0 +1,12 @@
+<div class="col-3">
+  <div class="col">
+    <header class="card-header" style="background-color:var(--headerColor)">{{header}}</header>
+    <ul>
+      <div class="card" *ngFor="let card of cards">
+        <p class="card-detail">{{card}}</p>
+        <a class="remove-card" (click)="removeCard($event, card)">Remove</a>
+      </div>
+    </ul>
+    <button class="add-card" (click)="addCard()">Add Skill</button>
+  </div>
+ </div>
